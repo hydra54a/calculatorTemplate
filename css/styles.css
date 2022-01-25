@@ -1,0 +1,81 @@
+#drop_file_zone {
+  background-color: #EEE;
+  background-image: url("../images/placeholder.png");
+  border: #999 5px dashed;
+  width: 228px;
+  height: 200px;
+  background-size: 284px 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+justify-content: center;
+}
+#drag_upload_file {
+width:50%;
+margin:0 auto;
+}
+#drag_upload_file p {
+text-align: center;
+}
+#drag_upload_file #selectfile {
+display: none;
+}
+ul{
+  list-style-type: none;
+}
+.top-margin {
+  border-top: 2px solid #E6E9ED !important;
+}
+
+/* slider  */
+.slidecontainer {
+  width: 100%;
+  margin-top:5px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+/* end of slider section */
+
+.no-border {
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+
+/*
+setttings
+*/
+.settings:hover{
+  cursor: pointer;
+  color:red;
+}
